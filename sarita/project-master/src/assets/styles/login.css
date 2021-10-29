@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(59, 141, 15, 0.58);
+  font-family: roboto;
+  user-select: none;
+}
+
+.container {
+  width: 450px;
+  background-color: #34b3a0;
+  /* box-shadow: 0px 0px 10px 5px #0a0a0a6e; */
+}
+
+.signup,
+.login {
+  width: 50%;
+
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.signup-form,
+.login-form {
+  background: #fff;
+  padding: 40px;
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+}
+
+.input {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  color: #3e3e40;
+  font-size: 14px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.input:focus {
+  border: 2px solid #34b3a0;
+}
+
+.btn {
+  width: 100%;
+  background: green;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: #3e3e40;
+  font-family: roboto;
+}
+::-moz-placeholder {
+  color: #3e3e40;
+  font-family: roboto;
+}
+:-ms-input-placeholder {
+  color: #3e3e40;
+  font-family: roboto;
+}
+:-moz-placeholder {
+  color: #3e3e40;
+  font-family: roboto;
+}

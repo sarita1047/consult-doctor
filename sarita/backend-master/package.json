@@ -1,0 +1,35 @@
+{
+  "name": "consult-doctor",
+  "version": "1.0.0",
+  "description": "Bacend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server && npm start admin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khoms/Consult-Doctor.git"
+  },
+  "author": "Khoms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khoms/Consult-Doctor/issues"
+  },
+  "homepage": "https://github.com/khoms/Consult-Doctor#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
